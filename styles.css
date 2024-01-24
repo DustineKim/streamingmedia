@@ -8,6 +8,11 @@ body {
     width: 834px;
     margin: 0 auto;
     margin-bottom: 30px;
+    background-color: #020659;
+}
+
+main {
+    background-color: white;
 }
 
 
@@ -57,8 +62,6 @@ body {
     justify-content: space-around;
     align-items: center;
     padding-top: 30px;
-    padding-bottom: 20px;
-    gap: 50px;
     width: 834px;
 }
 
@@ -70,32 +73,37 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     max-height: 520px;
+    background-color: #2699fb;
 } 
 
 .scroll2 section {
     margin: 10px;
     position: relative;
-    padding-right: 100px;
-    margin-right: 20px;
-    padding: 20px;
-    width:  350px;
+    padding: 21px;
+    width:  338px;
     height: 100px;
+    background-color: #0D8DFB;
+    color: white;
+    border-radius: 5px;
 }
 
 .scroll2 img {
     display: inline;
     float: left;
-    padding: 5px;
+    margin-top: -8px;
     padding-right: 10px;
 }
 
 .scroll2 h3 {
     display: inline-block;   
+    color: white;
+    margin-top: -10px;
 }
 
 .scroll2 p {
     display: inline;
     max-width: 200px;
+    margin-top: -10px;
 }
 
 .scroll2 div {
@@ -116,31 +124,37 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     max-height: 520px;
+    background-color: #2104D9;
 } 
 
 .scroll3 section {
     margin: 10px;
     position: relative;
-    padding-right: 100px;
     padding: 20px;
-    width:  350px;
+    width:  345px;
     height: 100px;
+    background-color: #030A8C;
+    color: white;
+    border-radius: 5px;
 }
 
 .scroll3 img {
     display: inline;
     float: left;
-    padding: 5px;
+    margin-top: -8px;
     padding-right: 10px;
 }
 
 .scroll3 h3 {
     display: inline-block;   
+    color: white;
+    margin-top: -10px;
 }
 
 .scroll3 p {
     display: inline;
     max-width: 200px;
+    margin-top: -10px;
 }
 
 
@@ -202,6 +216,11 @@ p, dl, dd {
 
 footer {
    width: 834px;
+   background-color: white;
+   padding-top: 30px;
+   margin-top: -20px;
+   margin-bottom: -50px;
+   height: 50px;
 }
 
 footer p {
@@ -209,6 +228,7 @@ footer p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
     color: #590242;
 }
 
