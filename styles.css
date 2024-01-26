@@ -73,10 +73,21 @@ ul {
 
 li a {
     color: white;
+    font-variant: small-caps;
 }
 
+ul li {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
 
+.title {
+    font-size: 20px;
+}
 
+li a:hover {
+    color: #590242;
+}
 
 
 label {
@@ -183,6 +194,11 @@ nav {
 nav h2 {
     display: none;
 }
+
+a:link {
+    text-decoration: none;
+}
+
 
 
 
@@ -516,11 +532,17 @@ ul + li {
     padding-top: 20px;
 }
 
+li:hover {
+    background-color: #590242;
+    border-radius: 5px;
+}
+
 ul li {
-    text-align: center;
-    padding-top: 10px;
+    position: relative;
     font-variant: small-caps;
-    padding-left: 20px;
+    top: 10px;
+    text-align: center;
+
 }
 
 a:link {
