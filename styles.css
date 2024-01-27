@@ -535,6 +535,11 @@ ul + li {
 li:hover {
     background-color: #590242;
     border-radius: 5px;
+    color: white;
+}
+
+li a:hover {
+    color: white;
 }
 
 ul li {
